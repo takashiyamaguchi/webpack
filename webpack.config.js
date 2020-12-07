@@ -1,6 +1,7 @@
 const path = require('path');
 
 const outputPath = path.resolve(__dirname, 'dist');
+
 console.log({outputPath});
 
 module.exports = {
@@ -8,5 +9,8 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: outputPath
+  },
+  devServer: {
+    contentBase: outputPath
   }
 };

@@ -1,4 +1,10 @@
 import _ from 'lodash';
+import Tiger from './utilities';
+// import { name } from './utilities';
+
+// console.log(utilities.nijyou(3));
+// console.log(utilities.name);
+console.log(Tiger.say());
 
 function component () {
   const element = document.createElement('div');

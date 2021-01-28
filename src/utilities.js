@@ -11,3 +11,7 @@ export default class Lion {
     return 'ROARRR';
   }
 }
+
+export function hello (){
+  alert('Hello');
+}
